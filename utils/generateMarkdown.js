@@ -39,6 +39,13 @@ function generateMarkdown(response) {
 ## Description
 ${response.description}
 
+## Table of Contents
+[Installation](## Installation)
+[Usage](## Usage)
+[Contributing](## Contributing)
+[Tests](## Tests)
+[License](## License)
+
 ## Installation
 ${response.installation}
 
@@ -54,7 +61,7 @@ ${response.tests}
 ${renderLicenseSection(response.license)} 
 
 ## Questions
-Contact me at either https://github.com/users/${response.username} or ${
+Contact me at either https://github.com/${response.username} or ${
     response.email
   }
 `;
